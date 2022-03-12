@@ -1,0 +1,348 @@
+body{
+    height: 100px;
+    margin: 0px;
+    padding: 2px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* C'est la tête de la page*/
+header{
+    background-color:  #d35649;
+    width: 98%;
+    padding: 1%;
+} 
+header .flex1{
+    align-items: center;
+    display: flex;
+}
+/* logo */
+header .flex1 .logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+header .flex1 .logo a{
+    color: white;
+    text-decoration: none;
+}
+ nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2px;
+
+}
+nav a i{
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+nav a:hover{
+    color:  #98a5a5;
+}
+/* corp */
+/* Section 1 */
+.part1{
+    text-align: center;
+    background: url(/Assets/Images/group-1.jpg);
+    background-position: 50%;
+    background-size: cover;
+    width: 98%;
+    padding: 1%;
+    padding-bottom: 8%;
+    height: 250px;
+}
+.part1 .event {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: black;
+}
+.part1 form{
+    background-color: #eee;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 2%;
+}
+.part1 .input{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 20em;
+}
+.part1 .boutton1{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 6px;
+    background-color: #d35649;
+    color: #fff;
+    border-color: #d35649;
+}
+.part1 .boutton2{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-top: 4em;
+    background-color: #eee;
+    color: #1f1f1f;
+    border-radius: 6px;
+    border-color:#eee;
+}
+/* Section 2 */
+.part2{
+    height: 400px;
+}
+.part2{
+    text-align: center;
+}
+.part2 h3{
+   color: #d35649;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+.container1 .element{
+    text-align: center;
+    padding-bottom: 2em;
+}
+/* Section 3 */
+.part3{
+    height: 250px;
+    background-color: #d35649;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+.container3 .element3{
+    width: 200%;
+    padding-left: 2em;
+}
+h6{ 
+    color: white;
+    font-size: 15px;
+}
+.container3 .element3 p{
+    color: white; 
+    font-size: 14px;
+}
+.container3 .element3 button{
+    border: 1px solid #fff;
+    color: #d35649;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+}
+.container3 .element4{
+    display: flex;
+    justify-content: end;
+    padding: 0.5em;
+}
+.container3 .element4 img{
+   border-radius: 55%;
+}
+/* Section 4 */
+.part4{
+    background-color:  #98a5a5;
+    height: 250px;
+}
+.text-image{
+    display: flex;
+    justify-content: space-between;
+}
+.text-image .element6{
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+}
+.text-image .element5 button{
+    border: 1px solid #fff;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+}
+.text-image .element5{
+    width: 150%;
+    padding: 2em;
+    color: white; 
+}
+.text-image .element5 p{
+    font-size: 14px; 
+}
+.group2{
+    border-radius: 50%;
+}
+.group4{
+    border-radius: 50%;
+}
+.group3{
+    border-radius: 50%;
+}
+/* Section 5 */
+.part5{
+    background-color: #509bd7;
+    height: 250px;
+}
+.text-image2{
+    display: flex;
+    justify-content: space-between;
+}
+.text-image2 .element7{
+    width: 250%;
+    padding: 2em;
+    color: white; 
+}
+.text-image2 .element7 p{ 
+    font-size: 14px;
+}
+.text-image2 .element8{
+    display: flex;
+    justify-content: end;
+    padding: 0.5em;
+}
+.text-image2 .element8 img{
+    border-radius: 60%;
+}
+/* pied de l'index */
+footer{
+    color: #fff;
+}
+.footer-p1{
+    height: 10vh;
+    background-color: black  ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+.footer-p1 .tirer{
+    padding: 1em;
+    border-top: 1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+.footer-p1 .rond i{
+    text-align: center;
+}
+.footer-p1 .rond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.footer-p1 a{
+    color: #fff;
+    padding-left: 2em;
+    text-decoration: none;
+}
+.footer-flex{
+    height: 20vh;
+    background-color:  black;
+    display: flex;
+    padding-top: 2em;
+}
+.subscribe{
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 40px;
+    text-align: center;
+}
+.contact{
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 50px;
+    text-align: center;
+}
+.footer-flex input{
+    text-align: center;
+    border: 1px solid #444;
+    background-color: black;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 3em;
+}
+.footer-flex p{
+    font-size: 14px;
+}
+.footer-flex button{
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #444;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5rem;
+    border-radius: 10%;
+}
+.email{
+    color: #d35649;
+}
+.about{
+    text-align: center;
+    padding-left: 5rem;
+}
+.about a{
+    color: #d35649;
+    text-decoration: none;
+}
+.footer-copy{
+    height: 5vh;
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones i{
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icones i:hover{
+    transform: scale(1.5);
+    color: #d35649;
+}
+.footer-copy p:hover{
+    transform: scale(1.0);
+    color: #d35649;
+}
+.footer-copy p{ 
+    font-size: 12px;
+}
+/* responsive de l'index */
+@media only screen and (max-width: 600px) {
+    /* en-tete */
+    header{
+        height: 15vh;
+    }
+    header .flex1 .logo {
+        display: flex;
+        justify-content: center;
+        
+    }
+    /* logo */
+    .logo h1{
+        padding-left: 1em;
+    }
+    nav{
+        padding-top: 1.2em;
+    }    
+    nav  .none{
+        display: none;
+    }
+    header .flex1{
+        display: flex;
+        flex-direction: column;
+    }
+    /* pied */
+    .footer-p1{
+    display: none;
+    }
+    .footer-flex{
+        display: none;
+    }
+    .footre-copy{
+        display: flex;
+        flex-direction: column;
+    }
+    .footre-copy{
+        padding: 1em;
+        height: 10vh;
+    }
+}

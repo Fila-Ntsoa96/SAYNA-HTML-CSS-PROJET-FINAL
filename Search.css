@@ -1,0 +1,230 @@
+body{
+    height: 100px;
+    margin: 0px;
+    padding: 2px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* tête de la page */
+header{
+    background-color:  #d35649;
+    width: 98%;
+    padding: 1%;
+} 
+header .flex1{
+    align-items: center;
+    display: flex;
+}
+/* logo */
+header .flex1 .logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+header .flex1 .logo a{
+    color: white;
+    text-decoration: none;
+}
+ nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2px;
+
+}
+nav a i{
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+nav a:hover{
+   color:  #98a5a5;
+}
+/* corp */
+/* formulaire */
+.bloc-page{
+    background-color: #fff;
+    text-align: center;
+    height: auto;
+}
+.bloc-form{
+    margin-top: 2.3em;
+    margin-bottom: 2.3em;
+    height: auto;
+    background-color: #eee;
+}
+.grid-1{
+    padding: 2em;
+    max-width: 1800px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,150px);
+    gap: 22px;
+    align-items: center;
+}
+ 
+/* image */
+.bloc-image{
+    padding: 2em;
+    height: auto;
+    text-align: center;
+}
+.bloc-image h2{
+    padding: 2em;
+}
+.grid-2{
+    max-width: 1800px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,400px);
+    align-items: center;
+}
+.grid-2 .item img{
+    background-color: #d35649;
+    gap: 2px;
+}
+/* c'est pied de la page search */
+footer{
+    color: #fff;
+}
+.footer-p1{
+    height: 10vh;
+    background-color: black  ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+.footer-p1 .tirer{
+    padding: 1em;
+    border-top: 1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+.footer-p1 .rond i{
+    text-align: center;
+}
+.footer-p1 .rond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.footer-p1 a{
+    color: #fff;
+    padding-left: 2em;
+    text-decoration: none;
+}
+.footer-flex{
+    height: 20vh;
+    background-color:  black;
+    display: flex;
+    padding-top: 2em;
+}
+.subscribe{
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 40px;
+    text-align: center;
+}
+.contact{
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 50px;
+    text-align: center;
+}
+.footer-flex input{
+    text-align: center;
+    border: 1px solid #444;
+    background-color: black;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 3em;
+}
+.footer-flex p{
+    font-size: 14px;
+}
+.footer-flex button{
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #444;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5rem;
+    border-radius: 10%;
+}
+.email{
+    color: #d35649;
+}
+.about{
+    text-align: center;
+    padding-left: 5rem;
+}
+.about a{
+    color: #d35649;
+    text-decoration: none;
+}
+.footer-copy{
+    height: 5vh;
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones i{
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icones i:hover{
+    transform: scale(1.5);
+    color: #d35649;
+}
+.footer-copy p:hover{
+    transform: scale(1.0);
+    color: #d35649;
+}
+.footer-copy p{ 
+    font-size: 12px;
+}
+/* responsive de l'index */
+@media only screen and (max-width: 600px) {
+    /* en-tete */
+    header{
+        height: 15vh;
+    }
+    header .flex1 .logo {
+        display: flex;
+        justify-content: center;
+        
+    }
+    /* logo */
+    .logo h1{
+        padding-left: 1em;
+    }
+    nav{
+        padding-top: 1.2em;
+    }    
+    nav  .none{
+        display: none;
+    }
+    header .flex1{
+        display: flex;
+        flex-direction: column;
+    }
+    /* pied */
+    .footer-p1{
+    display: none;
+    }
+    .footer-flex{
+        display: none;
+    }
+    .footre-copy{
+        display: flex;
+        flex-direction: column;
+    }
+    .footre-copy{
+        padding: 1em;
+        height: 10vh;
+    }
+}
